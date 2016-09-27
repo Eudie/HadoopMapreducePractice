@@ -1,0 +1,22 @@
+Note: In the frequency analyses, each customer is assigned a frequency profile i.e., “frequent”, “moderate”, “infrequent” or “single class” based on the following definitions:
+Basis for the frequency profiles:
+Single class: A customer who had only one visit across the lifecycle.
+Infrequent: A customer whose number of visits in a month is 1-3x per month.
+Moderate: A customer whose number of visits in a month is 4-7x per month.
+Frequent: A customer who took more than 7 visits in a month.
+The time period considered for the analyses is from Aug 2008 to Sep 2015. Each customer is attributed to a frequency profile in every month as well as at an overall level. Following are the two approaches followed to categorize the customer into a frequency profile at an overall level:
+Mode: In this approach, a customer is categorized as “frequent” / “moderate” / “infrequent” or “single class” based on the maximum appearances in a profile across each month in the lifecycle.
+Overall Average: In this approach, the average visits per month is calculated for each customer across the lifecycle and based on this average, the customer is categorized as “frequent” / “moderate” / “infrequent” or “single class”.
+The Mode approach has been chosen to draw the insights below because the ‘Average’ approach does not account for the breaks taken by a customer and is skewed by performance in a particular month or a short period. However, the timeline trends are based on the frequency profile of each customer in each month of the lifecycle.
+
+1.	Frequency analyses: More than half of the traffic and revenues are driven by “frequent” customers. The gain in revenue from converting a “moderate” customer to a “frequent” customer is more than converting an “infrequent” customer to a “moderate” customer.
+a.	Uniques: About 15% of the customers are “frequent” customers, while a little over one-third took only one class ever and the remaining 50% are “moderate” to “infrequent” customers. This distribution has moved favorably towards “frequent” customers over the past few years.
+i.	About half of the customers are “moderate” or “infrequent”. 
+ii.	A little over one-third (35%) of the customers are single class customers i.e., they took only one class ever.
+iii.	About 15% of customers are “frequent” customers.
+iv.	The % of “moderate” and “infrequent” customers decreased gradually over past few years (e.g., 68% in June 2009 to 57% in June 2015) while the % of “frequent” customers has increased gradually during this period (e.g., from 23% in June 2009 to 29% in June 2015).
+b.	Visits: As expected, the 15% of “frequent” customers contributed to almost 60% of the visits and most of the remaining visits were contributed by the “moderate” and “infrequent” customers. 
+i.	About 38% of visits are from “moderate” and “infrequent” customers.
+ii.	Only 2% of the visits are from “single class” customers.
+iii.	More than half of the visits (~ 60%) are from “frequent” customers.
+iv.	In line with the decline in “moderate” and “infrequent” customers, the % of visits from these customers also decreased gradually from 43% in June 2009 to 30% in June 2015.

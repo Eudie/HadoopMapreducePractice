@@ -1,11 +1,10 @@
 #!/usr/bin/python
 
-#Reducer to create DTM from csv as input
+# Reducer to create DTM from csv as input
 import sys
 
 Total = 0
 oldWord = None
-
 
 for line in sys.stdin:
     data_mapped = line.strip().split("\t")
@@ -14,15 +13,14 @@ for line in sys.stdin:
         continue
 
     ID, tweetWord = data_mapped
-    NewWord = ID + "!#!#!"+ tweetWord
+    NewWord = ID + " | " + tweetWord
     if oldWord and oldWord != NewWord:
-        print oldWord, "\t", Total
+        print(oldWord, "\t", Total)
         oldWord = NewWord
         Total = 0
 
     oldWord = NewWord
     Total += 1
 
-if oldWord != None:
-    print oldWord, "\t", Total
-
+if oldWord is not None:
+    print(oldWord, "\t", Total)
