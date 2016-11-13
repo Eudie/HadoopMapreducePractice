@@ -37,7 +37,7 @@ Setting Environment Variables
 ------------------------------------------
 sudo gedit ~/.bashrc
 {
-export HADOOP_HOME=/home/hadoop/hadoop
+export HADOOP_HOME=/home/hadoop4eudie/hadoop
 export HADOOP_INSTALL=$HADOOP_HOME
 export HADOOP_MAPRED_HOME=$HADOOP_HOME
 export HADOOP_COMMON_HOME=$HADOOP_HOME
@@ -115,8 +115,7 @@ Final Step
 ---------------------------------------------
 hdfs namenode -format
 cd $HADOOP_HOME/sbin/
-./start-dfs.sh
-./start-yarn.sh
+./start-all.sh
 jps
 hadoop fs -mkdir /test4eudie
 hadoop fs -ls /
